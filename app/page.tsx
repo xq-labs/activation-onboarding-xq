@@ -7,7 +7,7 @@ export default function Home() {
         <span>1080 x 1920</span>
       </header>
       <div className="kiosk-placeholder__center">
-        <p>Kiosk Canvas</p>
+        <p>Canvas</p>
         <h1>Portrait frame ready</h1>
         <span>Content is clipped to the fixed kiosk area.</span>
       </div>
