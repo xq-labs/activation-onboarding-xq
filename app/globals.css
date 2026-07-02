@@ -1,26 +1,123 @@
-@import "tailwindcss";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #e5e7eb;
+  --canvas: #f8fafc;
+  --foreground: #111827;
+  --muted: #64748b;
+  --line: #cbd5e1;
+  --accent: #006d77;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  margin: 0;
+  min-height: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.kiosk-shell {
+  align-items: safe center;
+  display: flex;
+  justify-content: safe center;
+  min-height: 100vh;
+  overflow: auto;
+  padding: 40px;
+}
+
+.kiosk-canvas {
+  background: var(--canvas);
+  box-shadow: 0 24px 80px rgb(15 23 42 / 22%);
+  flex: 0 0 auto;
+  height: 1920px;
+  overflow: hidden;
+  position: relative;
+  width: 1080px;
+}
+
+.kiosk-placeholder {
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 88%), rgb(248 250 252 / 92%)),
+    radial-gradient(circle at 16% 12%, rgb(0 109 119 / 14%), transparent 24%),
+    linear-gradient(135deg, #f8fafc 0%, #eef6f3 45%, #f1f5f9 100%);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  padding: 72px;
+  position: relative;
+  width: 100%;
+}
+
+.kiosk-placeholder__grid {
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 90px 90px;
+  inset: 0;
+  opacity: 0.42;
+  position: absolute;
+}
+
+.kiosk-placeholder__header,
+.kiosk-placeholder__footer {
+  align-items: center;
+  display: flex;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 24px;
+  justify-content: space-between;
+  letter-spacing: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.kiosk-placeholder__header p,
+.kiosk-placeholder__header span,
+.kiosk-placeholder__footer span {
+  margin: 0;
+}
+
+.kiosk-placeholder__header span,
+.kiosk-placeholder__footer {
+  color: var(--muted);
+}
+
+.kiosk-placeholder__center {
+  align-self: center;
+  border: 2px solid rgb(0 109 119 / 22%);
+  display: grid;
+  gap: 28px;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 72px;
+  position: relative;
+  text-align: center;
+  width: 720px;
+}
+
+.kiosk-placeholder__center p {
+  color: var(--accent);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 26px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.kiosk-placeholder__center h1 {
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 1.02;
+  margin: 0;
+}
+
+.kiosk-placeholder__center span {
+  color: var(--muted);
+  font-size: 30px;
+  line-height: 1.35;
 }
