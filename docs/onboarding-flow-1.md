@@ -18,7 +18,7 @@ Use the screenshots as visual references, but do not treat all current on-screen
 ## Asset Naming
 
 Current screenshot folder:
-`/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/`
+`/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/`
 
 Recommended screenshot names for handoff:
 
@@ -74,7 +74,7 @@ Next screen:
 02 Persona Selection.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-1.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-1.png`
 - Recommended export name: `01-welcome.png`
 - Center graphics are placeholders.
 
@@ -103,7 +103,7 @@ Next screen:
 03 Persona Confirmation.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-2.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-2.png`
 - Recommended export name: `02-persona-selection.png`
 - Persona icons are placeholders until avatar designs are finalized.
 
@@ -136,7 +136,7 @@ Next screen:
 04 Name Entry.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-3.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-3.png`
 - Recommended export name: `03-persona-confirmation.png`
 - Selected persona icon from Frame 02.
 
@@ -166,7 +166,7 @@ Next screen:
 05 Name Confirmation.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-4.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-4.png`
 - Recommended export name: `04-name-entry.png`
 - Selected persona icon/title from Frame 03.
 
@@ -196,7 +196,7 @@ Next screen:
 06 Avatar Choice.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-5.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-5.png`
 - Recommended export name: `05-name-confirmation.png`
 - Selected persona icon/avatar.
 
@@ -226,7 +226,7 @@ Next screen:
 - `Use default` goes to an additional default avatar selection flow that is not represented in these 13 frames.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-6.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-6.png`
 - Recommended export name: `06-avatar-choice.png`
 - Persona icon/avatar placeholder.
 
@@ -263,7 +263,7 @@ Next screen:
 08 Location, unless a review/retake or processing screen is required first.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-7.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-7.png`
 - Recommended export name: `07-camera-pose.png`
 - Camera feed area.
 - Possible silhouette/frame overlay.
@@ -296,7 +296,7 @@ Next screen:
 09 Interest Selection Empty.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-8.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-8.png`
 - Recommended export name: `08-location.png`
 - Map of the United States or regional map.
 
@@ -329,7 +329,7 @@ Next screen:
 - TBD if the user skips.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-9.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-9.png`
 - Recommended export name: `09-interest-selection-empty.png`
 
 Notes:
@@ -361,7 +361,7 @@ Next screen:
 11 Experience Map.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-10.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-10.png`
 - Recommended export name: `10-interest-selection-complete.png`
 
 Notes:
@@ -388,7 +388,7 @@ Next screen:
 12 Summary.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-11.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-11.png`
 - Recommended export name: `11-experience-map.png`
 - Location-specific activation map, to be created.
 
@@ -420,7 +420,7 @@ Next screen:
 13 Final Handoff.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-12.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-12.png`
 - Recommended export name: `12-summary.png`
 - User name.
 - User demographic/persona segment.
@@ -470,7 +470,7 @@ Next screen:
 Rest of the activation experience outside the kiosk onboarding flow.
 
 Assets:
-- Current screenshot: `/Users/nathanposner/Desktop/activation-onboarding-2/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-13.png`
+- Current screenshot: `/Users/nathanposner/Desktop/activation-experiences-xq/activation-onboarding-xq/public/assets/screens/export1/Kiosk-Onboarding-13.png`
 - Recommended export name: `13-final-handoff.png`
 - Fun graphic similar to the initial start screen.
 - NFC chip.
